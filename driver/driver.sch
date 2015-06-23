@@ -4606,6 +4606,7 @@ Source: http://catalog.tycoelectronics.com/TE/bin/TE.Connect?C=1&amp;M=BYPN&amp;
 <wire x1="55.88" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="48.26" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
 <label x="68.58" y="40.64" size="1.778" layer="95"/>
+<label x="63.5" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="OKB1" gate="A" pin="EMIT"/>

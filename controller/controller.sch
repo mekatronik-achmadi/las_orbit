@@ -7378,6 +7378,13 @@ Marquardt</description>
 <label x="86.36" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="MA'" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="7"/>
+<wire x1="78.74" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
+<label x="86.36" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

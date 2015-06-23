@@ -1,0 +1,50 @@
+   1               		.file	"las_int.c"
+   2               	__SP_H__ = 0x3e
+   3               	__SP_L__ = 0x3d
+   4               	__SREG__ = 0x3f
+   5               	__RAMPZ__ = 0x3b
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.text
+   9               	.Ltext0:
+  10               		.cfi_sections	.debug_frame
+  11               	.global	INT_Setup
+  13               	INT_Setup:
+  14               	.LFB12:
+  15               		.file 1 "las_int.c"
+   1:las_int.c     **** #include "avr_header.h"
+   2:las_int.c     **** 
+   3:las_int.c     **** #define pin_adc_railing 0
+   4:las_int.c     **** #define pin_adc_filler 1
+   5:las_int.c     **** #define pin_adc_servo 2
+   6:las_int.c     **** volatile unsigned char adc_servo,adc_filler,adc_railing;
+   7:las_int.c     **** 
+   8:las_int.c     **** void INT_Setup(void){
+  16               		.loc 1 8 0
+  17               		.cfi_startproc
+  18               	/* prologue: function */
+  19               	/* frame size = 0 */
+  20               	/* stack size = 0 */
+  21               	.L__stack_usage = 0
+  22 0000 0895      		ret
+  23               		.cfi_endproc
+  24               	.LFE12:
+  26               		.comm	adc_railing,1,1
+  27               		.comm	adc_filler,1,1
+  28               		.comm	adc_servo,1,1
+  29               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 las_int.c
+     /tmp/cc5bZ0w3.s:2      *ABS*:000000000000003e __SP_H__
+     /tmp/cc5bZ0w3.s:3      *ABS*:000000000000003d __SP_L__
+     /tmp/cc5bZ0w3.s:4      *ABS*:000000000000003f __SREG__
+     /tmp/cc5bZ0w3.s:5      *ABS*:000000000000003b __RAMPZ__
+     /tmp/cc5bZ0w3.s:6      *ABS*:0000000000000000 __tmp_reg__
+     /tmp/cc5bZ0w3.s:7      *ABS*:0000000000000001 __zero_reg__
+     /tmp/cc5bZ0w3.s:13     .text:0000000000000000 INT_Setup
+                            *COM*:0000000000000001 adc_railing
+                            *COM*:0000000000000001 adc_filler
+                            *COM*:0000000000000001 adc_servo
+
+UNDEFINED SYMBOLS
+__do_clear_bss

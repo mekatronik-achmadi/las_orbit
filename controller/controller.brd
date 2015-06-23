@@ -2830,6 +2830,9 @@ design rules under a new name.</description>
 <wire x1="32.385" y1="33.147" x2="32.385" y2="25.019" width="0.6096" layer="16"/>
 <wire x1="32.385" y1="25.019" x2="32.639" y2="24.765" width="0.6096" layer="16"/>
 </signal>
+<signal name="MA'">
+<contactref element="PCB1" pad="7"/>
+</signal>
 </signals>
 </board>
 </drawing>
