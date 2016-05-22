@@ -15,12 +15,17 @@
 #include "las_tim.h"
 
 #define LED 7 //B
+#define MD  5 //H
+#define MC1 4 //B
+#define MC2 6 //H
 #define MB1 6 //B
-#define MB2 5 //B
+//#define MB2 5 //B
 #define MA  4 //H
 
-#define SW2A 2 //D
-#define SW2B 3 //D
+#define SW1A 0//D
+#define SW1B 1//D
+//#define SW2A 2 //D
+//#define SW2B 3 //D
 #define SW1C 4 //E
 
 #define TRFILLER 0

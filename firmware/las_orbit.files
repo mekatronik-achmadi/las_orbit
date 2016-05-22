@@ -6,3 +6,4 @@ las_adc.c
 las_adc.h
 las_tim.c
 las_tim.h
+Makefile
